@@ -1,0 +1,41 @@
+$primary-color : #4eb883;
+
+$secondary-color : #E9F9F4;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active {
+  font-weight: 700;
+}
+
+.btn-success,
+.badge-success {
+  background-color: $primary-color;
+}
+
+.card-product {
+  border-radius: 15px;
+
+  .card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: 700;
+      color: black;
+    }
+  }
+}
+
+.img-fluid {
+  border-radius: 20px;
+}

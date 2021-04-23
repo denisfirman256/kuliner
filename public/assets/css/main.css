@@ -1,0 +1,13 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active {
+  font-weight: 700;
+}
+
+.btn-success,
+.badge-success {
+  background-color: #4eb883;
+}
+/*# sourceMappingURL=main.css.map */

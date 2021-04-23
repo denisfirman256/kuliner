@@ -1,0 +1,16 @@
+$primary-color : #4eb883;
+
+$secondary-color : #E9F9F4;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active {
+  font-weight: 700;
+}
+
+.btn-success,
+.badge-success {
+  background-color: $primary-color;
+}
